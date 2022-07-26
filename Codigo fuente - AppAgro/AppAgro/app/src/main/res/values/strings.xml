@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AppAgro Sistema Experto </string>
+    <string name="title_activity_navegador">Bienvenido a AppAgro </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Climas">
+
+        <item>Frio</item>
+        <item>Moderadamente frio</item>
+        <item>Templado</item>
+        <item>Moderadamente calido</item>
+        <item>Calido</item>
+        <item>Caliente</item>
+    </string-array>
+    <string name="title_activity_ubicacion">Ubicacion</string>
+    <string name="resume" />
+    <string name="title_activity_arcilloso">Arcilloso</string>
+
+
+</resources>

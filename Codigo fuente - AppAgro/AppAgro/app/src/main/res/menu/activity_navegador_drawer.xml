@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/SistemaExperto"
+            android:icon="@mipmap/carrot2"
+            android:title="Que podemos cultivar?" />
+        <item
+            android:id="@+id/TipoTierra"
+            android:icon="@mipmap/carrot2"
+            android:title="Conoce tu tipo de tierra" />
+
+    </group>
+
+    <item android:title="Informacion">
+        <menu>
+            <item
+                android:id="@+id/Ayuda"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Como usar AppAgro" />
+        </menu>
+    </item>
+
+</menu>

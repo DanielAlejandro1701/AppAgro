@@ -1,0 +1,6 @@
+Saludos
+
+La aplicacion AppAgro podra ser encontrada en la PlayStore buscando AppAgro en el buscador y tocando la primera opcion.
+
+Esta es la direccion de la aplicacion en PlayStore. https://play.google.com/store/apps/details?id=daniel.darkarmored.danielalejandro.appagro
+

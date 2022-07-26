@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context="daniel.darkarmored.danielalejandro.appagro.Arcilloso">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/arcilloso" />
+
+    <Button
+        android:id="@+id/retroceso"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:drawableLeft="@mipmap/atras"
+        android:drawablePadding="8dp"
+        android:text="Atras"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="490dp" />
+</RelativeLayout>

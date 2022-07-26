@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lista"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondorta"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="daniel.darkarmored.danielalejandro.appagro.Lista">
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="42dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textviewe"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puedes sembrar cualquiera de las siguientes opciones! "
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/listados"
+        android:layout_alignEnd="@+id/listados"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textviewe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Solo elige alguna!"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/listados"
+        android:layout_width="340dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="13dp"
+        android:background="@color/common_plus_signin_btn_text_light_default"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        tools:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/lista"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/enseñame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enseñame! "
+        android:layout_below="@+id/listados"
+        android:layout_alignRight="@+id/textviewe"
+        android:layout_alignEnd="@+id/textviewe"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="11dp" />
+</RelativeLayout>

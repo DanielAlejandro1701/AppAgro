@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="?attr/colorButtonNormal"
+    android:baselineAligned="false"
+    tools:context="daniel.darkarmored.danielalejandro.appagro.MenuTierra">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/Franco"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/arveja"
+        tools:layout_editor_absoluteY="114dp"
+        tools:layout_editor_absoluteX="47dp"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+
+    <ImageButton
+        android:id="@+id/Arcilloso"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/cebolla"
+        tools:layout_editor_absoluteY="114dp"
+        tools:layout_editor_absoluteX="167dp"
+        android:layout_alignTop="@+id/Franco"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/Arenoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/frijol"
+        tools:layout_editor_absoluteY="114dp"
+        tools:layout_editor_absoluteX="292dp"
+        android:layout_alignTop="@+id/Arcilloso"
+        android:layout_toRightOf="@+id/FrancoArenoso"
+        android:layout_toEndOf="@+id/FrancoArenoso" />
+
+    <ImageButton
+        android:id="@+id/FrancoArenoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/lechuga"
+        tools:layout_editor_absoluteY="237dp"
+        tools:layout_editor_absoluteX="251dp"
+        android:layout_above="@+id/textView15"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13" />
+
+    <ImageButton
+        android:id="@+id/FrancoArcilloso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/papa"
+        tools:layout_editor_absoluteY="237dp"
+        tools:layout_editor_absoluteX="77dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/textView13"
+        android:layout_toLeftOf="@+id/textView13"
+        android:layout_toStartOf="@+id/textView13" />
+
+    <ImageButton
+        android:id="@+id/FrancoLimoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/tomate"
+        tools:layout_editor_absoluteY="352dp"
+        tools:layout_editor_absoluteX="77dp"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignLeft="@+id/FrancoArcilloso"
+        android:layout_alignStart="@+id/FrancoArcilloso" />
+
+    <ImageButton
+        android:id="@+id/FrancoArcillosoArenoso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/zanahoria"
+        tools:layout_editor_absoluteY="352dp"
+        tools:layout_editor_absoluteX="251dp"
+        android:layout_above="@+id/textView18"
+        android:layout_alignLeft="@+id/FrancoArenoso"
+        android:layout_alignStart="@+id/FrancoArenoso" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo Franco"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_below="@+id/Franco"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo Arcilloso"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_below="@+id/Arcilloso"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo Arenoso"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo Franco Arcilloso"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="293dp"
+        android:layout_below="@+id/FrancoArcilloso"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo Franco Arenoso"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="293dp"
+        android:layout_below="@+id/FrancoArenoso"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo Franco Limoso"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="409dp"
+        android:layout_below="@+id/FrancoLimoso"
+        android:layout_alignLeft="@+id/Franco"
+        android:layout_alignStart="@+id/Franco" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="131dp"
+        android:layout_height="35dp"
+        android:text="     Tipo Franco Arcilloso Arenoso"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="409dp"
+        android:layout_below="@+id/FrancoLimoso"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conoce los tipos de suelos"
+        android:textSize="27sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+</RelativeLayout>

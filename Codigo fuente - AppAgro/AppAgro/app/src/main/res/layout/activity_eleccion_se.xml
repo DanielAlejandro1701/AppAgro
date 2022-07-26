@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_eleccion_se"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/fondosensenanza"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="daniel.darkarmored.danielalejandro.appagro.EleccionSe">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Ahora elige las mejores opciones"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/SpinnerClima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/SpinnerTierra"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignRight="@+id/SpinnerTierra"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="19dp"
+        android:popupBackground="@color/common_google_signin_btn_text_dark_default"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Elige tu departamento!"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <CheckBox
+        android:id="@+id/Boyaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:checked="false"
+        android:text="Boyaca"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textView6"
+        android:layout_toLeftOf="@+id/textView9"
+        android:layout_toStartOf="@+id/textView9"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp" />
+
+    <TextView
+        android:id="@+id/Temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/Cundinamarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Boyaca"
+        android:layout_alignStart="@+id/Boyaca"
+        android:layout_below="@+id/Boyaca"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Cundinamarca"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <CheckBox
+        android:id="@+id/Nariño"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Cundinamarca"
+        android:layout_alignStart="@+id/Cundinamarca"
+        android:layout_below="@+id/Cundinamarca"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Nariño"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Que tipo de tierra tienes?"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:textSize="16sp"
+        android:layout_below="@+id/Nariño"
+        android:layout_alignLeft="@+id/Nariño"
+        android:layout_alignStart="@+id/Nariño" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignLeft="@+id/SpinnerTierra"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignStart="@+id/SpinnerTierra"
+        android:layout_below="@+id/SpinnerTierra"
+        android:layout_marginTop="26dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:text="Como esta el clima?"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/SpinnerTierra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:dropDownWidth="match_parent"
+        android:popupBackground="@color/common_google_signin_btn_text_dark_default"
+        android:spinnerMode="dialog"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/Fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/Boyaca"
+        android:layout_alignStart="@+id/Boyaca" />
+
+    <TextView
+        android:id="@+id/cel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView3"
+        android:text="C"
+        android:textColor="@color/common_google_signin_btn_text_light_default" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperatura:"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/cel"
+        android:layout_toStartOf="@+id/cel"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp" />
+
+    <Button
+        android:id="@+id/BotonSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:elevation="0dp"
+        android:text="Inicia !"
+        android:layout_below="@+id/SpinnerClima"
+        android:layout_toRightOf="@+id/Nariño"
+        android:layout_toEndOf="@+id/Nariño" />
+
+</RelativeLayout>

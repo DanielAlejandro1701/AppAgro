@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondosensenanza"
+    tools:context="daniel.darkarmored.danielalejandro.appagro.Ensenanza">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Elige una hortaliza y enseñame!  "
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textviewhortaliza"
+        android:layout_toStartOf="@+id/textviewhortaliza"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Mes de siembra"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="302dp"
+        android:layout_below="@+id/ListaHortalizas"
+        android:layout_alignLeft="@+id/ListaHortalizas"
+        android:layout_alignStart="@+id/ListaHortalizas" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperatura: "
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="342dp"
+        android:layout_alignBaseline="@+id/temp"
+        android:layout_alignBottom="@+id/temp"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departamento "
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="383dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/temp"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Tipo de tierra"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="422dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/Clima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Clima"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="467dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24" />
+
+    <Spinner
+        android:id="@+id/spinnerMes"
+        android:layout_width="156dp"
+        android:layout_height="27dp"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignEnd="@+id/spinnerDepto"
+        android:layout_alignRight="@+id/spinnerDepto"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDepto"
+        android:layout_width="157dp"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_alignEnd="@+id/ListaHortalizas"
+        android:layout_alignRight="@+id/ListaHortalizas"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Spinner
+        android:id="@+id/spinnerTierra"
+        android:layout_width="159dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="411dp"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignRight="@+id/spinnerDepto"
+        android:layout_alignEnd="@+id/spinnerDepto" />
+
+    <Spinner
+        android:id="@+id/spinnerClima"
+        android:layout_width="158dp"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/Clima"
+        android:layout_alignEnd="@+id/spinnerTierra"
+        android:layout_alignRight="@+id/spinnerTierra"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <ListView
+        android:id="@+id/ListaHortalizas"
+        android:layout_width="327dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <EditText
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@+id/spinnerMes"
+        android:layout_alignLeft="@+id/spinnerMes"
+        android:layout_alignStart="@+id/spinnerMes"
+        android:layout_alignRight="@+id/spinnerMes"
+        android:layout_alignEnd="@+id/spinnerMes" />
+
+    <TextView
+        android:id="@+id/textviewhortaliza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hortaliza"
+        android:layout_below="@+id/spinnerClima"
+        android:layout_alignRight="@+id/ListaHortalizas"
+        android:layout_alignEnd="@+id/ListaHortalizas"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/BotonListo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listo! "
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/spinnerClima"
+        android:layout_toRightOf="@+id/textView21"
+        android:layout_toEndOf="@+id/textView21" />
+</RelativeLayout>
