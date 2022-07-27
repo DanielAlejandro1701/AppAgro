@@ -1,8 +1,30 @@
+# AppAgro Sistema Experto de hortalizas y verduras
 
-AppAgro
+## RESUMEN
 
-AppAgro Sistema Experto de hortalizas y verduras
+Se muestra la importancia de la tecnología en el sector agrícola, el impacto que puede llegar a tener para los agricultores el desarrollo de una aplicación que los pueda ayudar a conocer bajo ciertas características que hortaliza se puede sembrar, se trabaja con agricultores de la zona cundiboyacense y del Nariño al sur de Colombia obteniendo información de una selección de hortalizas, conociendo como se cultivan y sus dificultades al momento de la siembra, observando en cada agricultor un mayor apoyo tecnológico mitigando el mayor riesgo para ellos que es el cambio climático. Los resultados indican que, con un mayor apoyo tecnológico, cada siembra de hortalizas puede ser cada vez más de una mejor calidad. 
 
-INTRODUCCION
 
-Colombia tiene un puesto privilegiado a nivel mundial en cuanto a diversidad en su flora y fauna gracias a su topografía, esto la convierte en un país en el que es posible desarrollar casi cualquier tipo de actividad agrícola ya que tiene todos los pisos térmicos. El país tiene la ventaja de tener todo tipo de paisajes; pasando de glaciales, desiertos tropicales, páramos hasta sitios cálidos. En estos lugares el clima puede variar de 6°C hasta los 29°C. Paralelamente, Colombia también es conocida por ser un país agricultor, esto se ve reflejado en que la actividad “agricultura, ganadería, caza, silvicultura y pesca” tenga el séptimo lugar más representativo dentro del PIB y que adicionalmente sea la actividad que más crece dentro de la economía del país teniendo una variación porcentual positiva del 7,7% anual y 1,6% trimestral. No obstante, Colombia también es un país que no tiene un desarrollo en infraestructura destacado en términos tecnológicos que le permita sobresalir en el tema de los cultivos. Por tanto, se hizo necesario que se planteara un proyecto en el cual se promoviera la agricultura responsable a través de una aplicación móvil basada en un sistema experto de conocimientos técnicos de esta actividad, con el objetivo de darles a los cultivadores una herramienta que les ayudara a tener un mayor aprovechamiento de sus recursos disponibles. Para lograr cumplir los objetivos del proyecto se estableció una investigación de enfoque exploratorio y alcance cualitativo para poder identificar con precisión qué necesidades se pueden satisfacer con la herramienta desarrollada. Es importante resaltar que el proyecto sólo se desarrolló para la región Cundiboyacense, comprendida por los departamentos de Boyacá y Cundinamarca y el departamento de Nariño sur, ya que, precisamente en estos sectores la actividad agrícola representa un 17%, 12% y 14.9% del total del PIB departamental respectivamente. Entre los resultados más destacables del proyecto, se encontró que la herramienta predictiva que se desarrolló ayudó a acabar con la incertidumbre de los cultivadores ya que, gracias a la tecnificación de algunas variables básicas de la agricultura, ellos fueron capaces de entender y adaptar mejores prácticas al momento de cultivar. Adicionalmente, la aplicación hizo que fuera más sencillo para las nuevas generaciones de agricultores adaptarse mejor a la actividad y por tanto tener producciones con mejores estándares de calidad.
+![Logo](https://user-images.githubusercontent.com/109491345/181094516-bd6ebf6e-f769-4eb8-bec2-22a7caea79eb.png)
+
+## OBJETIVOS          
+
+###### OBJETIVO GENERAL  
+
+Desarrollar una herramienta más efectiva para predecir el momento ideal para cultivar hortalizas y verduras en la zona Cundiboyacense de Colombia y en el departamento de Nariño sur de Colombia basado en variables como tipo de suelo, el clima de la región, la ubicación del cultivo y la temporada del año. 
+
+###### OBJETIVOS ESPECÍFICOS      
+
+•	Elaborar un instrumento que recoja el conocimiento de un agricultor experto acerca de los climas, los tipos de tierras y diferentes características que permitan a los agricultores sembrar verduras y hortalizas.
+
+•	Realizar entrevistas a los agricultores de la zona Cundiboyacense y de Nariño sur para conocer las dificultades en el momento de realizar la siembra.
+
+•	Construir la base de conocimientos con la información adquirida del experto, las reglas de inferencias, el motor de inferencia y la base de hechos para el sistema experto.
+
+•	Implementar el desarrollo de la aplicación móvil usando el lenguaje de programación Java con herramientas IDE como Android Studio.
+
+•	Realizar un menú de ayuda dentro de la aplicación que explique a los agricultores el funcionamiento de la misma.
+
+•	Lanzar la aplicación en un modo “Beta” para detectar problemas antes de publicar una versión completa de la aplicación.
+
+
